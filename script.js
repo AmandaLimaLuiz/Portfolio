@@ -7,7 +7,7 @@ var counter=1;
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;
     counter++;
-    if(counter>21){
+    if(counter>27){
         counter=1;
     }
 },5000);
